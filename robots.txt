@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /include/
+Disallow: /CNAME
+Disallow: /dynamic.html
+Disallow: /styles/index.scss
