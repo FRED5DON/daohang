@@ -99,28 +99,21 @@
 
 
     <div class="row">
-
+        <hr/>
         <div class="header col-md-10 col-md-offset-1">
-            <!-- 多说评论框 start -->
-            <div class="ds-share flat duoshuo" data-thread-key="FredLinkshome_001" data-title="我的常用Links" data-images=""
-                 data-content="常用的链接" data-url="http://www.freddon.com/fredlinks/index.html">
-                <div class="ds-share-inline">
-                    <ul class="ds-share-icons-16">
-
-                        <li>分享到：</li>
-                        <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
-                        <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
-                        <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
-                        <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
-
-                    </ul>
-                    <div class="ds-share-icons-more">
-                    </div>
-                </div>
-            </div>
-
-            <div class="ds-thread duoshuo" data-thread-key="FredLinkshome_001" data-title="首页FredLink"
-                 data-url="http://www.freddon.com/index.html"></div>
+            
+               <!-- 网易云跟贴评论框 -->
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<script>
+  var cloudTieConfig = {
+    url: document.location.href, 
+    sourceId: "daohang0001",
+    productKey: "f8bf06ef26604f9299bd4e9087e6a64e",
+    target: "cloud-tie-wrapper"
+  };
+</script>
+<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+<!-- 网易云跟贴 end -->
         </div>
     </div>
 
@@ -155,22 +148,11 @@
             </div>
         </div>
     </div>
+
 </div>
 
 
-<!-- 网易云跟贴评论框 -->
- 
-<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
-<script>
-  var cloudTieConfig = {
-    url: document.location.href, 
-    sourceId: "daohang0001",
-    productKey: "f8bf06ef26604f9299bd4e9087e6a64e",
-    target: "cloud-tie-wrapper"
-  };
-</script>
-<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
-<!-- 网易云跟贴 end -->
+
 
 
 <div class="content-wrapper-footer">
